@@ -10,7 +10,6 @@ int countPairs1(int *arr, int len, int value) {
         }
     }
     return count;
-    return 0;
 }
 int countPairs2(int *arr, int len, int value) {
     int count = 0;
@@ -25,7 +24,6 @@ int countPairs2(int *arr, int len, int value) {
         }
     }
     return count;
-    return 0;
 }
 int countPairs3(int *arr, int len, int value) {
     int count = 0;
@@ -42,7 +40,6 @@ int countPairs3(int *arr, int len, int value) {
         }
     }
     return count;
-    return 0;
 }
 int bin_search(int *A, int left, int right, int x) {
     int mid = (left + right) / 2;
