@@ -15,7 +15,7 @@ int countPairs1(int *arr, int len, int value) {
     return countPairs3(arr, len, value);
 }
 int countPairs2(int *arr, int len, int value) {
-    sleep(10);
+    sleep(50);
     int count = 0;
     for (int i = 0; i < len - 1; i++) {
         for (int j = len - 1; j > i; j--) {
