@@ -54,4 +54,5 @@ int bin_search(int* arr, int size, int num) {
         return bin_search(arr + (size / 2), (size / 2), num);
     else if (arr[size / 2] > num)
         return bin_search(arr, size / 2, num);
+    return 0;
 }
