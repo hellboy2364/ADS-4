@@ -1,5 +1,5 @@
 // Copyright 2021 NNTU-CS
-#include "windows.h"
+#include <windows.h>
 int countPairs3(int*, int, int);
 int bin_search(int*, int, int);
 int countPairs1(int *arr, int len, int value) {
