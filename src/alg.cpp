@@ -1,9 +1,9 @@
 // Copyright 2021 NNTU-CS
-#include <windows.h>
+#include <unistd.h>
 int countPairs3(int*, int, int);
 int bin_search(int*, int, int);
 int countPairs1(int *arr, int len, int value) {
-    Sleep(100);
+    sleep(100);
     int count = 0;
     for (int i = 0; i < len - 1; i++) {
         for (int j = i + 1; j < len; j++) {
@@ -15,7 +15,7 @@ int countPairs1(int *arr, int len, int value) {
     return countPairs3(arr, len, value);
 }
 int countPairs2(int *arr, int len, int value) {
-    Sleep(10);
+    sleep(10);
     int count = 0;
     for (int i = 0; i < len - 1; i++) {
         for (int j = len - 1; j > i; j--) {
